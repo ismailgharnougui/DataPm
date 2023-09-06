@@ -1,0 +1,96 @@
+<mat-icon class="addicon">add</mat-icon>
+
+<h1 mat-dialog-title class="title">Inviter des collegue a joindre Prosoriak </h1>
+<div mat-dialog-content class="title2">
+  Veuillez saisir le nom de projet et le Email .
+
+
+<mat-tab-group>
+  <mat-tab label="Inviter par E-mail" class="tab1">
+      <form [formGroup]="formInviteEmail" (ngSubmit)="onSubmitFormInviteEmail()">
+
+
+          <h4 style="margin-top:18px;">Ajouter à des projets</h4>
+          <mat-form-field style="width: 100%">
+              <mat-select formControlName="selected">
+                  <mat-option value="1">
+                      <mat-icon class="blue-icon">folder_open</mat-icon>
+                      Projet 1 consruction de batiment
+                  </mat-option>
+                  <mat-option value="2">
+                      <mat-icon class="blue-icon">folder_open</mat-icon>
+                      Construction de batiment
+                  </mat-option>
+                  <mat-option class="style1" value="3">
+                      <mat-icon class="blue-icon">folder_open</mat-icon>
+                      Construction de project
+                  </mat-option>
+              </mat-select>
+              <mat-error *ngIf="formInviteEmail.get('selected')?.hasError('required')">Projet 
+                obligatoire</mat-error> 
+
+          </mat-form-field>
+          <div class="form-group">
+
+              <label class="adressestyle">Adresses E-mail *</label>
+              <mat-form-field class="example-full-width" style="width: 100%">
+                  <textarea matInput class="form-control" formControlName="email"></textarea>
+                  <mat-error *ngIf="formInviteEmail.get('email')?.hasError('required')">Email 
+                    obligatoire</mat-error> 
+    
+              </mat-form-field>
+
+          </div>
+          <p>Envoyer Un Message*</p>
+          <mat-form-field class="example-full-width" style="width: 100%">
+              <textarea matInput ngModel formControlName="message" ></textarea>
+              <mat-error *ngIf="formInviteEmail.get('message')?.hasError('required')">Message 
+                obligatoire</mat-error> 
+                
+          </mat-form-field>
+          <!---<div class="alert alert-danger">error</div> --->
+          <div mat-dialog-actions align="center">
+            <button mat-button mat-dialog-close class="cancel">Cancel</button>
+            <button mat-button cdkFocusInitial class="confirm" type="submit">Confirmer</button>
+          </div>
+      </form>
+  </mat-tab>
+  <mat-tab label="Inviter a l'aide d'un lien" class="tab2">Ajouter à des projets
+    <form [formGroup]="formLink" (ngSubmit)="onSubmitFormLink()"> 
+      <mat-form-field style="width: 100%">
+        <mat-select formControlName="selected">
+            <mat-option value="1" >
+                <mat-icon class="blue-icon">folder_open</mat-icon>
+                Projet 1 consruction de batiment
+            </mat-option>
+            <mat-option value="2">
+                <mat-icon class="blue-icon">folder_open</mat-icon>
+                Construction de batiment
+            </mat-option>
+            <mat-option class="style1" value="3">
+                <mat-icon class="blue-icon">folder_open</mat-icon>
+                Construction de project
+            </mat-option>
+        </mat-select>
+        <mat-error *ngIf="formLink.get('selected')?.hasError('required')">Projet 
+          obligatoire</mat-error> 
+
+    </mat-form-field>
+    <p>Lien</p>
+    <mat-form-field style="width: 100%">
+      <input matInput type="search">
+      <button mat-button matSuffix mat-stroked-button aria-label="search">
+        Créer un lien
+      </button>
+    </mat-form-field>
+    <div mat-dialog-actions align="center">
+      <button mat-button mat-dialog-close class="cancel">Cancel</button>
+      <button mat-button cdkFocusInitial class="confirm" type="submit">Confirmer</button>
+    </div>
+
+    </form>
+  </mat-tab>
+
+
+</mat-tab-group>
+</div>

@@ -1,0 +1,123 @@
+.addicon{
+  font-size: 40px;
+  height: 40px ;
+  width: 40px ;
+  top: 24px;
+  left: 24px;
+  border-radius: 10px;
+  border: 1px;
+
+}
+.title{
+
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+
+
+}
+.title2{
+
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+
+}
+.tab1{
+
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+
+}
+
+.tab2{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+
+}
+
+.folder-icon:before {
+  content: "\f07b"; /* Replace with the Unicode value for the folder icon */
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  margin-right: 5px; /* Add spacing between icon and text if desired */
+}
+
+.folder-open-icon:before {
+  content: "\f07c"; /* Replace with the Unicode value for the open folder icon */
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  margin-right: 5px; /* Add spacing between icon and text if desired */
+}
+.blue-icon {
+  color: blue;
+}
+.style1{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+
+}
+.adressestyle{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+
+}
+
+::ng-deep .mat-select-content{
+  width:2000px;
+  background-color: red;
+  font-size: 10px;
+}
+.confirm{
+  background: #1FBAE0;
+  color:white;
+  border-radius: 8px;
+margin-top: 50px;
+
+}
+.cancel {
+  border: 2px solid black;
+  border-radius: 8px;
+  color:black;
+  margin-top: 50px;
+
+
+}
+.inputbutton{
+  width: 455px;
+  height: 47px;
+  border-radius: 4px;
+  border: 1px;
+  gap: 10px;
+
+}
+::ng-deep .mat-form-field.mat-focused
+  .mat-form-field-required-marker {
+      color: blue;
+  }
+
+
+::ng-deep .mat-form-field.mat-form-field-invalid {
+
+}
+
+.mat-form-field-required-marker {
+  color: red;
+}
+
+

@@ -1,0 +1,287 @@
+<div class="content1">
+<div class="dps">
+  <p>Date</p>
+  <mat-icon>arrow_drop_down</mat-icon>
+  <p>Propriétaire</p>
+  <mat-icon>arrow_drop_down</mat-icon>
+  <p>Statue</p>
+  <mat-icon>arrow_drop_down</mat-icon>
+  <mat-icon class="dps1">sort_by_alpha</mat-icon>
+  <mat-icon class="dps2">sort</mat-icon>
+  </div>
+
+
+<div class="content">
+  <mat-drawer-container  class="my-container">
+    <mat-drawer #drawer class="my-drawer" mode="over" position="start">
+      Tour de soleil
+      <mat-tab-group>
+        <mat-tab label="Details">
+          <p>Description</p>
+          <br>
+          <p>Lorem ipsum dolor sit amet consectetur.<br>
+            Nibh at consectetur quis feugiat tempus<br> in erat ut tortor.
+            Ipsum nisl tristique<br> mattis vel elementum pellentesque hendrerit.</p>
+          <p>Propriétaire </p>
+          <img class="avatar" src="assets/images/person.jpg">
+          <mat-icon class="icon-more1">more_vert</mat-icon>
+
+          <p>Collaborateur </p>
+
+          <img class="avatar" src="assets/images/person.jpg">
+          <img class="avatar" src="assets/images/person.jpg">
+          <img class="avatar" src="assets/images/person.jpg">
+          <mat-icon class="custom-icon">add</mat-icon>
+
+          <p>Statue :</p>
+          <mat-icon class="icon-more1">more_vert</mat-icon>
+
+          <div class="statue">
+            <span>Dans les delais</span>
+          </div>
+          <div class="statue2">
+            <span>Risque</span>
+          </div>
+          <div class="statue2">
+            <span>En retard</span>
+          </div>
+          <p class="modif">Date de modification :</p>
+  <p class="modif1">29 mai 2020 par moi</p>
+          <p class="creat">Date de création</p>
+          <p class="creat1">29 mai 2020</p>
+
+
+        </mat-tab>
+        <mat-tab label="Activité">
+          <div class="cont1">
+          <p class="act1">Ellie a rejoint l'équipe projet 1</p>
+            <p class="EK">EK</p>
+
+            <p class="date1">04 April, 2021 | 04:00 PM</p>
+          </div>
+          <div class="cont2">
+            <p class="act2">Ellie a rejoint l'équipe projet 1</p>
+            <p class="JH">JH</p>
+
+            <p class="date2">04 April, 2021 | 04:00 PM</p>
+          </div>
+
+          <div class="cont3">
+            <p class="act3">Ellie a rejoint l'équipe projet 1</p>
+            <p class="AF">AF</p>
+
+            <p class="date3">03 April, 2021 | 02:00 PM</p>
+          </div>
+
+
+          <div class="cont4">
+            <p class="act4">Robert a termier son task du jour</p>
+            <p class="RP">RP</p>
+
+            <p class="date4">02 April, 2021 | 02:00 PM</p>
+          </div>
+
+          <div class="cont5">
+            <p class="act5">Emile a envoyer un email</p>
+            <p class="JK">JK</p>
+
+            <p class="date5">01 April, 2021 | 03:00 PM</p>
+          </div>
+        </mat-tab>
+      </mat-tab-group>
+    </mat-drawer>    <mat-drawer-content>
+  <div fxLayout="row wrap" fxLayoutGap="20px grid" >
+    <div fxFlex="25%" fxFlex.xs="100%" fxFlex.sm="33%"  class="my-drawer-content">
+
+      <mat-card class="mat-elevation-z4" (click)="drawer.toggle()">
+        <mat-card-header>
+        <mat-card-subtitle class="date-creation">Nov 2, 2022</mat-card-subtitle>
+        </mat-card-header>
+        <mat-card-content>
+
+        <div fxLayout="row">
+            <div fxLayout="row" fxLayoutAlign="start start">
+                <p class="title-project">Tour de soleil</p>
+          <mat-icon class="icon-more">more_vert</mat-icon>
+            </div>
+          </div>
+        </mat-card-content>
+
+       <br>
+        <mat-divider></mat-divider>
+
+        <mat-card-actions>
+          <br>
+          <div fxLayout="row">
+            <div fxLayout="row" fxLayoutAlign="start start" style="margin-bottom: 10px;">
+              <img class="avatar" src="assets/images/person.jpg">
+              <img class="avatar" src="assets/images/person.jpg">
+              <img class="avatar" src="assets/images/person.jpg">
+              <mat-icon class="custom-icon">add</mat-icon>
+            </div>
+            <div class="datee">
+              <span>2 jours restants</span>
+            </div>
+          </div>
+
+
+        </mat-card-actions>
+      </mat-card>
+    </div>
+    <div fxFlex="25%" fxFlex.xs="100%" fxFlex.sm="33%">
+      <mat-card class="mat-elevation-z4">
+        <mat-card-header>
+          <mat-card-subtitle class="date-creation">Nov 2, 2022</mat-card-subtitle>
+        </mat-card-header>
+        <mat-card-content>
+
+          <div fxLayout="row">
+            <div fxLayout="row" fxLayoutAlign="start start">
+              <p class="title-project">project 1</p>
+              <mat-icon class="icon-more">more_vert</mat-icon>
+            </div>
+          </div>
+        </mat-card-content>
+
+        <mat-card-content>
+          <br>        </mat-card-content>
+        <mat-divider></mat-divider>
+
+        <mat-card-actions>
+          <br>
+          <div fxLayout="row">
+            <div fxLayout="row" fxLayoutAlign="start start" style="margin-bottom: 10px;">
+              <img class="avatar" src="assets/images/person.jpg">
+              <img class="avatar" src="assets/images/person.jpg">
+              <img class="avatar" src="assets/images/person.jpg">
+              <mat-icon class="custom-icon1">add</mat-icon>
+            </div>
+            <div class="datee1">
+              <span>25 jours restants</span>
+            </div>
+          </div>
+
+
+        </mat-card-actions>
+      </mat-card>
+    </div>
+    <div fxFlex="25%" fxFlex.xs="100%" fxFlex.sm="33%">
+      <mat-card class="mat-elevation-z4">
+        <mat-card-header>
+          <mat-card-subtitle class="date-creation">Nov 2, 2022</mat-card-subtitle>
+        </mat-card-header>
+        <mat-card-content>
+
+          <div fxLayout="row">
+            <div fxLayout="row" fxLayoutAlign="start start">
+              <p class="title-project">project 1</p>
+              <mat-icon class="icon-more">more_vert</mat-icon>
+            </div>
+          </div>
+        </mat-card-content>
+
+        <br>
+        <mat-divider></mat-divider>
+
+        <mat-card-actions>
+          <br>
+          <div fxLayout="row">
+            <div fxLayout="row" fxLayoutAlign="start start" style="margin-bottom: 10px;">
+              <img class="avatar" src="assets/images/person.jpg">
+              <img class="avatar" src="assets/images/person.jpg">
+              <img class="avatar" src="assets/images/person.jpg">
+              <mat-icon class="custom-icon">add</mat-icon>
+            </div>
+            <div class="datee">
+              <span>2 jours restants</span>
+            </div>
+          </div>
+
+
+        </mat-card-actions>
+      </mat-card>
+    </div>
+    <div fxFlex="25%" fxFlex.xs="100%" fxFlex.sm="33%">
+      <mat-card class="mat-elevation-z4">
+        <mat-card-header>
+          <mat-card-subtitle class="date-creation">Nov 2, 2022</mat-card-subtitle>
+        </mat-card-header>
+        <mat-card-content>
+
+          <div fxLayout="row">
+            <div fxLayout="row" fxLayoutAlign="start start">
+              <p class="title-project">Tour de soleil</p>
+              <mat-icon class="icon-more">more_vert</mat-icon>
+            </div>
+          </div>
+        </mat-card-content>
+
+        <br>
+        <mat-divider></mat-divider>
+
+        <mat-card-actions>
+          <br>
+          <div fxLayout="row">
+            <div fxLayout="row" fxLayoutAlign="start start" style="margin-bottom: 10px;">
+              <img class="avatar" src="assets/images/person.jpg">
+              <img class="avatar" src="assets/images/person.jpg">
+              <img class="avatar" src="assets/images/person.jpg">
+              <mat-icon class="custom-icon2">add</mat-icon>
+            </div>
+            <div class="datee2">
+              <span>2 jours restants</span>
+            </div>
+          </div>
+
+
+        </mat-card-actions>
+      </mat-card>
+    </div>
+    <div fxFlex="25%" fxFlex.xs="100%" fxFlex.sm="33%">
+
+      <mat-card class="mat-elevation-z4">
+        <mat-card-header>
+          <mat-card-subtitle class="date-creation">Nov 2, 2022</mat-card-subtitle>
+        </mat-card-header>
+        <mat-card-content>
+
+          <div fxLayout="row">
+            <div fxLayout="row" fxLayoutAlign="start start">
+              <p class="title-project">project 1</p>
+              <mat-icon class="icon-more">more_vert</mat-icon>
+            </div>
+          </div>
+        </mat-card-content>
+
+        <mat-card-content>
+          <br>        </mat-card-content>
+        <mat-divider></mat-divider>
+
+        <mat-card-actions>
+          <br>
+          <div fxLayout="row">
+            <div fxLayout="row" fxLayoutAlign="start start" style="margin-bottom: 10px;">
+              <img class="avatar" src="assets/images/person.jpg">
+              <img class="avatar" src="assets/images/person.jpg">
+              <img class="avatar" src="assets/images/person.jpg">
+              <mat-icon class="custom-icon3">add</mat-icon>
+            </div>
+            <div class="datee3">
+              <span>25 jours restants</span>
+            </div>
+          </div>
+
+
+        </mat-card-actions>
+      </mat-card>
+    </div>
+
+</div>
+
+
+    </mat-drawer-content>
+  </mat-drawer-container>
+
+
+</div>
+</div>

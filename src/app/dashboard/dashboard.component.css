@@ -1,0 +1,507 @@
+.search-container {
+  display: flex;
+  align-items: center;
+  padding-left: 1000px;
+  margin-top: -70px;
+}
+
+.raduiss{
+  border-radius: 8px;
+}
+.dps {
+  display: flex;
+  align-items: center;
+  margin-left: 1000px;
+}
+
+.dps p {
+  margin: 0;
+  padding: 0 5px;
+}
+
+.dps mat-icon {
+  display: flex;
+  align-items: center;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.dps1 {
+  margin-left: auto;
+}
+
+.dps2 {
+  margin-left: 5px;
+}
+
+.search-field {
+  display: flex;
+  align-items: center;
+}
+.content1{
+  padding: 40px;
+}
+.content {
+  padding: 16px;
+}
+
+.content > mat-card {
+  width: 200px;
+}
+.avatar{
+  width: 25px;
+  height: 25px;
+  top: 385px;
+  left: 307px;
+  border-radius: 12px;
+  margin-right: -10px;
+
+}
+mat-divider {
+  width: 100%;
+}
+
+.datee
+{
+  width: 106px;
+  height: 25px;
+  top: 385px;
+  left: 484px;
+  border-radius: 22px;
+background:#DDACF566;
+
+  padding-left: 5px;
+
+  margin-left: 120px;
+  color: #64379F;
+
+    font-weight: 600;
+  line-height: 15px;
+  padding-top:5px;
+}
+.datee1
+{
+  background:#DCDFF9;
+  color:#7580E8;
+  width: 110px;
+  height: 25px;
+  top: 385px;
+  left: 484px;
+  border-radius: 22px;
+  padding-left: 0px;
+  margin-left: 120px;
+  font-weight: 600;
+  line-height: 15px;
+  padding-top:10px;
+}
+.datee2
+{
+  width: 106px;
+  height: 25px;
+  top: 385px;
+  left: 484px;
+  border-radius: 22px;
+  background:#F9AFAB33;
+;
+
+  padding-left: 5px;
+
+  margin-left: 120px;
+  color:#FF78BA;
+;
+;
+
+  font-weight: 600;
+  line-height: 15px;
+  padding-top:5px;
+}
+
+.custom-icon {
+  background-color:#9854CB;
+  padding: 2px; /* Optional: Add padding to adjust the background size */
+  border-radius: 50%; /* Optional: Make the background circular for circle icons */
+  display: inline-block;
+  color: white;/* Ensure proper layout */
+  font-size: 25px; /* Taille de l'icône */
+margin-left: 10px;
+}
+
+
+
+.custom-icon1 {
+  background-color:#7580E8;
+;
+  padding: 2px; /* Optional: Add padding to adjust the background size */
+  border-radius: 50%; /* Optional: Make the background circular for circle icons */
+  display: inline-block;
+  color: white;/* Ensure proper layout */
+  font-size: 25px; /* Taille de l'icône */
+  margin-left: 10px;
+}
+
+.custom-icon2 {
+  background-color:#FF78BA;
+  padding: 2px; /* Optional: Add padding to adjust the background size */
+  border-radius: 50%; /* Optional: Make the background circular for circle icons */
+  display: inline-block;
+  color: white;/* Ensure proper layout */
+  font-size: 25px; /* Taille de l'icône */
+  margin-left: 10px;
+}
+.custom-icon3 {
+  background-color:#FCA465;
+  padding: 2px; /* Optional: Add padding to adjust the background size */
+  border-radius: 50%; /* Optional: Make the background circular for circle icons */
+  display: inline-block;
+  color: white;/* Ensure proper layout */
+  font-size: 25px; /* Taille de l'icône */
+  margin-left: 10px;
+}
+
+
+.datee3
+{
+  width: 110px;
+  height: 25px;
+  top: 385px;
+  left: 484px;
+  border-radius: 22px;
+  background:#FDD3B4;
+
+  padding-left: 0px;
+
+  margin-left: 120px;
+  color:#E26001;
+  font-weight: 600;
+  line-height: 15px;
+  padding-top:10px;
+}
+.icon-more{
+  padding-left: 100px;
+  padding-top: -40px;
+  color: #6D6E6F;
+}
+.icon-more1{
+  padding-left: 100px;
+  padding-top: -80px;
+  color: #6D6E6F;
+}
+.date-creation{
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  text-align: center;
+  width: 94px;
+  height: 19px;
+  top: 241px;
+  left: 307px;
+
+}
+.title-project{
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 193px;
+  height: 29px;
+  top: 274px;
+  left: 307px;
+
+}
+
+.statue {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+color:#46D86D;
+  border-radius: 8px;
+  border: 2px solid #C4C4C4; /* Vous pouvez ajuster l'épaisseur de la bordure et la couleur (#000 représente le noir) selon vos préférences */
+  padding: 10px;
+
+}
+.statue2{
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+  color:#FF6D4A;
+  border-radius: 8px;
+  border: 2px solid #FF6D4A; /* Vous pouvez ajuster l'épaisseur de la bordure et la couleur (#000 représente le noir) selon vos préférences */
+  padding: 10px;
+
+}
+.my-container1 {
+  width: 400px;
+  height: 300px;
+}
+.my-drawer-content {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.my-drawer {
+  padding: 30px;
+  background-color: white;
+}
+.modif {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+
+
+
+
+
+}
+.modif1{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+
+
+}
+
+.act1{
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0px;
+  text-align: left;
+color:#23262F;
+;
+  padding-left: 30px;
+
+}
+.date1{
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0px;
+  text-align: left;
+color: #708099;
+  padding-left: 30px;
+
+;
+}
+
+.cont1{
+  background-color: #DCDFF9;
+  border-radius: 11px;
+;
+}
+.EK {
+  color: white;
+  background-color: #86A2E2;
+  border-radius: 50%; /* Utilisez 50% pour créer un fond circulaire */
+  width: 30px; /* Remplacez la largeur par la taille souhaitée */
+  height: 30px; /* Remplacez la hauteur par la taille souhaitée */
+  text-align: center; /* Vous pouvez ajouter du texte au centre si nécessaire */
+  padding-top: 10px;
+  margin-left: 10px;
+
+}
+.JH{
+
+  color: white;
+  background-color: #FDD3B4;
+  border-radius: 50%; /* Utilisez 50% pour créer un fond circulaire */
+  width: 30px; /* Remplacez la largeur par la taille souhaitée */
+  height: 30px; /* Remplacez la hauteur par la taille souhaitée */
+  text-align: center; /* Vous pouvez ajouter du texte au centre si nécessaire */
+  padding-top: 10px;
+  margin-left: 10px;
+
+
+}
+
+.act2{
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0px;
+  text-align: left;
+  color:#23262F;
+;
+  padding-left: 30px;
+
+}
+.date2{
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #708099;
+  padding-left: 30px;
+
+;
+}
+
+.cont2{
+  background-color:#FDD3B433;
+;
+  border-radius: 11px;
+;
+}
+
+
+
+
+
+.act3{
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0px;
+  text-align: left;
+  color:#23262F;
+;
+  padding-left: 30px;
+
+}
+.date3{
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #708099;
+  padding-left: 30px;
+
+;
+}
+
+.cont3{
+  background-color: #F9AFAB33;
+;
+;
+  border-radius: 11px;
+;
+}
+.AF{
+
+  color: white;
+  background-color: #F9AFAB;
+margin-left: 10px;
+  border-radius: 50%; /* Utilisez 50% pour créer un fond circulaire */
+  width: 30px; /* Remplacez la largeur par la taille souhaitée */
+  height: 30px; /* Remplacez la hauteur par la taille souhaitée */
+  text-align: center; /* Vous pouvez ajouter du texte au centre si nécessaire */
+  padding-top: 5px;
+
+}
+
+
+.act4{
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0px;
+  text-align: left;
+  color:#23262F;
+;
+  padding-left: 30px;
+
+}
+.date4{
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #708099;
+  padding-left: 30px;
+
+;
+}
+
+.cont4{
+  background-color:#68878F33;
+;
+  border-radius: 11px;
+;
+}
+.RP{
+
+  color: white;
+  background-color: #68878F;
+;
+  margin-left: 10px;
+  border-radius: 50%; /* Utilisez 50% pour créer un fond circulaire */
+  width: 30px; /* Remplacez la largeur par la taille souhaitée */
+  height: 30px; /* Remplacez la hauteur par la taille souhaitée */
+  text-align: center; /* Vous pouvez ajouter du texte au centre si nécessaire */
+  padding-top: 5px;
+
+}
+
+
+.act5{
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0px;
+  text-align: left;
+  color:#23262F;
+;
+  padding-left: 30px;
+}
+.date5{
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #708099;
+  padding-left: 30px;
+
+;
+}
+
+.cont5{
+  background-color: #C6626733;
+;
+;
+  border-radius: 11px;
+;
+}
+.JK{
+
+  color: white;
+  background-color: #C66267;
+;
+;
+  margin-left: 10px;
+  border-radius: 50%; /* Utilisez 50% pour créer un fond circulaire */
+  width: 30px; /* Remplacez la largeur par la taille souhaitée */
+  height: 30px; /* Remplacez la hauteur par la taille souhaitée */
+  text-align: center; /* Vous pouvez ajouter du texte au centre si nécessaire */
+  padding-top: 5px;
+
+}
+.creat{
+
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.creat1{
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+
+}
